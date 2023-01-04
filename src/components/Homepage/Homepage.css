@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Handel+Gothic+Regular');
+@import url('https://fonts.googleapis.com/css2?family=Araboto+Black&display=swap');
+
+
+
+body {
+    font-family: 'Handel Gothic Regular', sans-serif;
+}
+
+.logo {
+    text-decoration: none;
+   
+  }  
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    padding: 0 20px;
+  }
+  
+  .toolbar h1 {
+    font-size: 30px;
+    color: white;
+    margin: 0;
+  }
+
+  .toolbar h1:hover {
+    color: rgb(214, 0, 0);
+  }
+  
+  .toolbar input[type="text"] {
+    width: 300px;
+    height: 36px;
+    border: none;
+    background-color: #ddd;
+    padding: 0 10px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 10px;
+  }
+  
+  .toolbar .cart {
+    width: 36px;
+    height: 36px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .toolbar .cart:hover {
+    background-color: #ccc;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(60, 60, 60);
+    height: 50px;
+    padding: 0 20px;
+  }
+  
+  nav button {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Araboto Black', sans-serif;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0 20px;
+  }
+  
+  nav button:hover {
+    color: rgb(214, 0, 0);
+  }
+  
