@@ -1,28 +1,66 @@
 @import url('https://fonts.googleapis.com/css?family=Handel+Gothic+Regular');
 @import url('https://fonts.googleapis.com/css2?family=Araboto+Black&display=swap');
 
-
-
 body {
     font-family: 'Handel Gothic Regular', sans-serif;
 }
 
 .logo {
     text-decoration: none;
-   
-  }  
+}  
+
+.small-logo {
+  color: grey;
+  position: relative;
+  margin-right: 960px;
+}
+
+.top-bar {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: rgb(242, 242, 242);
+}
+
+.link-container {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
+
+.link:hover {
+  color: red;
+}
+
+.toolbar .shoppingCart {
+  width: 36px;
+  height: 10px;
+  padding-bottom: 5px;
+  transform: scale(1.5);
+  
+  cursor: pointer;
+
+}
 
 .toolbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(0, 0, 0);
-    height: 60px;
-    padding: 0 20px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  height: 100px;
+  padding: 0 20px;
+}
+
   
   .toolbar h1 {
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     margin: 0;
   }
@@ -32,16 +70,17 @@ body {
   }
   
   .toolbar input[type="text"] {
-    width: 300px;
+    width: 500px;
     height: 36px;
     border: none;
-    background-color: #ddd;
+    background-color: rgb(242, 242, 242);
     padding: 0 10px;
     font-size: 16px;
     outline: none;
-    border-radius: 10px;
+    border-radius: 2px;
+
   }
-  
+
   .toolbar .cart {
     width: 36px;
     height: 36px;
@@ -56,28 +95,117 @@ body {
   .toolbar .cart:hover {
     background-color: #ccc;
   }
+
+
+.search-container {
+  width: 100px; /* adjust this value as needed */
+  margin-left: 260px;
+  position: absolute;
+}
+
   
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(60, 60, 60);
-    height: 50px;
-    padding: 0 20px;
-  }
+.shipping-deals {
+  margin-left: 800px; /* adjust this value to match the width of the search-container div */
+  margin-bottom: 30px;
+  background-color: rgb(214, 0, 0);
+  color: #ddd;
+  border-color: transparent;
+  cursor: pointer;
+  position: absolute;
+}
+
+.shipping-deals-text {
+  color: #ddd;
+  font-size: 15px;
+}
+
+.text-fade-container {
+  position: absolute;
+  left: 820px;
+  margin-top: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(60, 60, 60);
+  height: 50px;
+  padding: 0 20px;
+}
+
+nav button {
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Araboto Black', sans-serif;
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+nav button:hover {
+  color: rgb(214, 0, 0);
+}
+
+.coverPhoto {
+  width: 100%;
+  opacity: 4;
+}
+
+.cover-text {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  font-size: 80px;
+  color: #ddd;
+}
+
+
+.fade {
+  transition: opacity 1s;
+  opacity: 1;
+}
+
+.fade.out {
+  opacity: 0;
+}
+
+.resolution-text h1 {
+  position: absolute;
+  color: #ddd;
+  left: 50px;
+  bottom: 295px;
+  background-color: black;
+}
   
-  nav button {
-    font-weight: bold;
-    font-size: 15px;
-    font-family: 'Araboto Black', sans-serif;
-    color: white;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 0 20px;
-  }
+.resolution-text h1:nth-of-type(1) {
+  bottom: 330px;
+
+}
   
-  nav button:hover {
-    color: rgb(214, 0, 0);
-  }
-  
+.resolution-text h1:nth-of-type(2) {
+bottom: 295px;
+color: rgb(214, 0, 0);
+}
+
+.resolution-text h1:nth-of-type(3) {
+bottom: 260px;
+}
+
+.shop-weightlifting-container {
+  position: absolute;
+  left: 50px;
+  bottom: 240px;
+}
+
+.shop-weightlifting {
+  background-color: rgb(214, 0, 0);
+  color: #ddd;
+  border-color: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
