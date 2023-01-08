@@ -1,12 +1,6 @@
-.featured-products {
-    margin: 40px 40px;
-    padding: 0 20px;
-  }
-  
-.featured-products h2 {
-  text-align: left;
-  border-bottom: 1px solid rgb(172, 172, 172);
-  padding-bottom: 10px;
+.title {
+  padding-left: 50px;
+  padding-bottom: 15px;
 }
 
 .product-grid {
@@ -20,20 +14,38 @@
   width: 23%;
   margin-bottom: 50px;
   text-align: center;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .product img {
-  width: 100%;
+  height: 275px;
+  width: 275px;
 }
 
 .product h3 {
   margin: 10px 0;
+  font-weight: lighter;
+  font-size: 15px;
+  white-space: nowrap;
 }
 
 .product p {
   font-weight: bold;
 }
+
+.swiper-container {
+  width: 90%; /* This will give the products a fixed width of 90% */
+}
+
+.swiper-slides {
+  padding: 2000px;
+}
+
+
+
 
 
 

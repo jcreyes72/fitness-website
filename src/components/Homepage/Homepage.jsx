@@ -48,7 +48,7 @@ const Homepage = () => {
         </div>
         <button className="shipping-deals"> DAILY SHIPPING DEALS </button>
         <div className="text-fade-container">
-          <p className="shipping-deals-text fade"></p>
+          <p className="shipping-deals-text fade">BUY A RIG AND YOUR ENTIRE ORDER SHIPS FREE</p>
         </div>
         <div className="shoppingCart"><AiOutlineShoppingCart style={{color: 'white'}}/></div>
       </div>
