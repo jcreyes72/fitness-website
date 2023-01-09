@@ -36,13 +36,20 @@
   font-weight: bold;
 }
 
+
+
 .swiper-container {
-  width: 90%; /* This will give the products a fixed width of 90% */
+  width: 100%;
 }
 
-.swiper-slides {
-  padding: 2000px;
+
+
+.product:nth-of-type(1) {
 }
+
+.product:nth-of-type(2) {
+}
+
 
 
 

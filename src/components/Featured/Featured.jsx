@@ -24,18 +24,19 @@ const Featured = () => {
     return (
         <>
             <h2 className='title'>FEATURED PRODUCTS</h2>
-            <div class="swiper-button-prev-unique"></div>
-<div class="swiper-button-next-unique"></div>
+            
             <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 spaceBetween={30}
                 slidesPerView={4}
                 slidesPerGroup={4}
+                navigation
                 scrollbar={{ draggable: true }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
-                className = 'swiper-container'
+                className = "swiper-container"
             >
+            
                 <div className="swiper-slides">
                     <SwiperSlide className='swiper-slide'>
                     <div className="product">
