@@ -111,17 +111,17 @@ const Featured = () => {
                     <div className="home-product">
                         <img src={shoes} alt="Shoes for every workout" />
                         <h3>Shoes for every workout</h3>
-                        <p>Shop now</p>
+                        <a href="/" className="shop-now-link">Shop now</a>
                     </div>
                     <div className="home-product">
                         <img src={garagegear} alt="Garage gym gear" />
                         <h3>Garage Gym Gear</h3>
-                        <p>Shop now</p>
+                        <a href="/" className="shop-now-link">Shop now</a>
                     </div>
                     <div className="home-product">
                         <img src={zeus} alt="Zeus gym builder" />
                         <h3>Zeus Gym Builder</h3>
-                        <p>Shop now</p>
+                        <a href="/" className="shop-now-link">Shop now</a>
                     </div>
                 </div>
             </div>
