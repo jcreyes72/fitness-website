@@ -78,6 +78,8 @@ const Homepage = () => {
 
 
      <Featured/>
+
+     
       
     </div>
   )
