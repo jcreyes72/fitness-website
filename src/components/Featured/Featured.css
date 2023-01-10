@@ -23,6 +23,7 @@
 .product img {
   height: 275px;
   width: 275px;
+  border-radius: 8px;
 }
 
 .product h3 {
@@ -33,22 +34,39 @@
 }
 
 .product p {
+  position: relative;
   font-weight: bold;
+  margin: 0 10px;
+}
+
+.s-container .swiper {
+  width: 90%;
+
+  position: unset;
+}
+
+.swiper .swiper-button-next {
+  position: absolute;
+  padding-top: 58rem;
+  padding-right: 1rem;
+  color: black;
+}
+
+.swiper .swiper-button-prev {
+  position: absolute;
+  padding-top: 58rem;
+  padding-left: 1rem;
+  color: black;
+}
+
+.s-container .swiper-slide {
+  position: relative;
 }
 
 
 
-.swiper-container {
-  width: 100%;
-}
 
 
-
-.product:nth-of-type(1) {
-}
-
-.product:nth-of-type(2) {
-}
 
 
 

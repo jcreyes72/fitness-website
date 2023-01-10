@@ -24,78 +24,84 @@ const Featured = () => {
     return (
         <>
             <h2 className='title'>FEATURED PRODUCTS</h2>
-            
-            <Swiper
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
-                spaceBetween={30}
-                slidesPerView={4}
-                slidesPerGroup={4}
-                navigation
-                scrollbar={{ draggable: true }}
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log('slide change')}
-                className = "swiper-container"
-            >
-            
-                <div className="swiper-slides">
-                    <SwiperSlide className='swiper-slide'>
+
+            <div className="s-container">  
+                <Swiper
+                    modules={[Navigation, Pagination, Scrollbar, A11y]}
+                    spaceBetween={30}
+                    slidesPerView={4}
+                    slidesPerGroup={1}
+                    navigation = {true}
+                    loopFillGroupWithBlank = {true}
+                    onSwiper={(swiper) => console.log(swiper)}
+                    onSlideChange={() => console.log('slide change')}
+                    className = "my-swiper"
+                >
+                    <SwiperSlide>
                     <div className="product">
                         <img src={feature1} alt="Rogue Echo Bike" />
                         <h3>Rogue Echo Bike</h3>
                         <p>$895.00</p>
                     </div>
                     </SwiperSlide>
-                    <SwiperSlide className='swiper-slide'>
+                    <SwiperSlide>
                     <div className="product">
                         <img src={feature2} alt="The Ohio Bar - Stainless Steel / Black" />
                         <h3>The Ohio Bar - Stainless Steel / Black</h3>
                         <p>$350.00</p>
                     </div>
                     </SwiperSlide>
-                    <SwiperSlide className='swiper-slide'>
+                    <SwiperSlide>
                     <div className="product">
                         <img src={feature3} alt="Rogue MIL Spec Echo Bumper" />
                         <h3>Rogue MIL Spec Echo Bumper</h3>
                         <p>$381.00</p>
                     </div>
                     </SwiperSlide>
-                    <SwiperSlide className='swiper-slide'>
+                    <SwiperSlide>
                     <div className="product">
                         <img src={feature4} alt="Rogue RML-3W Fold Back Wall Mount Rack" />
                         <h3>Rogue RML-3W Fold Back Wall Mount Rack</h3>
                         <p>$610.00</p>
                     </div>
                     </SwiperSlide>
-                    <SwiperSlide className='swiper-slide'>
+                    <SwiperSlide>
                     <div className="product">
                         <img src={feature5} alt="GORUCK Ballistic Trainers" />
                         <h3>GORUCK Ballistic Trainers</h3>
                         <p>$125.00</p>
                     </div>
                     </SwiperSlide>
-                    <SwiperSlide className='swiper-slide'>
+                    <SwiperSlide>
                     <div className="product">
                         <img src={feature6} alt="Rogue Husafell Strongman Bag" />
                         <h3>Rogue Husafell Strongman Bag</h3>
                         <p>$95.00</p>
                     </div>
                     </SwiperSlide>
-                    <SwiperSlide className='swiper-slide'>
+                    <SwiperSlide>
                     <div className="product">
                         <img src={feature7} alt="Rogue Squat Wedge" />
                         <h3>Rogue Squat Wedge</h3>
                         <p>$95.00</p>
                     </div>
                     </SwiperSlide>
-                    <SwiperSlide className='swiper-slide'>
+                    <SwiperSlide>
                     <div className="product">
                         <img src={feature8} alt="GORUCK Ballistic Trainers" />
                         <h3>GORUCK Ballistic Trainers</h3>
                         <p>$125.00</p>
                     </div>
                     </SwiperSlide>
-                </div>
-            </Swiper>
+
+                </Swiper>
+            </div>
+
+
+
+            <div className="fullpage">
+                <h3>FULLPAGE</h3>
+            </div>
         </>
     );
   }
