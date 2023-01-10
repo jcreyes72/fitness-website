@@ -8,6 +8,9 @@ import feature5 from "../../img/feature5.jpg"
 import feature6 from "../../img/feature6.jpg"
 import feature7 from "../../img/feature7.jpg"
 import feature8 from "../../img/feature8.jpg"
+import shoes from "../../img/shoes.jpg"
+import garagegear from "../../img/garagegear.jpg"
+import zeus from "../../img/zeus-gym-builder.jpg"
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
@@ -21,10 +24,11 @@ import 'swiper/css/scrollbar';
 
 
 const Featured = () => {
+
+    
     return (
         <>
             <h2 className='title'>FEATURED PRODUCTS</h2>
-
             <div className="s-container">  
                 <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -99,8 +103,27 @@ const Featured = () => {
 
 
 
-            <div className="fullpage">
-                <h3>FULLPAGE</h3>
+            <div className="shoes-and-gear">
+                <div className="title-header">
+                    <h2 className='title'>HOME FITNESS</h2>
+                </div>
+                <div className="img-container">
+                    <div className="home-product">
+                        <img src={shoes} alt="Shoes for every workout" />
+                        <h3>Shoes for every workout</h3>
+                        <p>Shop now</p>
+                    </div>
+                    <div className="home-product">
+                        <img src={garagegear} alt="Garage gym gear" />
+                        <h3>Garage Gym Gear</h3>
+                        <p>Shop now</p>
+                    </div>
+                    <div className="home-product">
+                        <img src={zeus} alt="Zeus gym builder" />
+                        <h3>Zeus Gym Builder</h3>
+                        <p>Shop now</p>
+                    </div>
+                </div>
             </div>
         </>
     );
