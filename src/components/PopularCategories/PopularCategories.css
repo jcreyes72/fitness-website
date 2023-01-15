@@ -1,0 +1,83 @@
+.title {
+    padding-left: 50px;
+    padding-bottom: 15px;
+  }
+  
+  .product-grid {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product {
+    width: 23%;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .product img {
+    height: 275px;
+    width: 275px;
+    border-radius: 8px;
+  }
+  
+  .popular h3 {
+    margin: 0px 0;
+    font-weight: lighter;
+    font-size: 15px;
+    white-space: nowrap;
+  }
+
+  .pop-container {
+    white-space: nowrap;
+  }
+  
+  .popular p {
+    position: relative;
+    font-weight: bold;
+    margin: 10px 10px;
+  }
+  
+  .s-container .swiper {
+    width: 90%;
+  
+    position: unset;
+  }
+  
+  .swiper .swiper-button-next {
+    position: absolute;
+    padding-top: 58rem;
+    padding-right: 1rem;
+    color: black;
+  }
+  
+  .swiper .swiper-button-prev {
+    position: absolute;
+    padding-top: 58rem;
+    padding-left: 1rem;
+    color: black;
+  }
+  
+  .s-container .swiper-slide {
+    position: relative;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    

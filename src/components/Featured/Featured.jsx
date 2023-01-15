@@ -8,9 +8,6 @@ import feature5 from "../../img/feature5.jpg"
 import feature6 from "../../img/feature6.jpg"
 import feature7 from "../../img/feature7.jpg"
 import feature8 from "../../img/feature8.jpg"
-import shoes from "../../img/shoes.jpg"
-import garagegear from "../../img/garagegear.jpg"
-import zeus from "../../img/zeus-gym-builder.jpg"
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
@@ -101,30 +98,6 @@ const Featured = () => {
                 </Swiper>
             </div>
 
-
-
-            <div className="shoes-and-gear">
-                <div className="title-header">
-                    <h2 className='title'>HOME FITNESS</h2>
-                </div>
-                <div className="img-container">
-                    <div className="home-product">
-                        <img src={shoes} alt="Shoes for every workout" />
-                        <h3>Shoes for every workout</h3>
-                        <a href="/" className="shop-now-link">Shop now</a>
-                    </div>
-                    <div className="home-product">
-                        <img src={garagegear} alt="Garage gym gear" />
-                        <h3>Garage Gym Gear</h3>
-                        <a href="/" className="shop-now-link">Shop now</a>
-                    </div>
-                    <div className="home-product">
-                        <img src={zeus} alt="Zeus gym builder" />
-                        <h3>Zeus Gym Builder</h3>
-                        <a href="/" className="shop-now-link">Shop now</a>
-                    </div>
-                </div>
-            </div>
         </>
     );
   }

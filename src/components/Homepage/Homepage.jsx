@@ -3,6 +3,9 @@ import './Homepage.css'
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import coverPhoto from "../../img/cover.jpg"
 import Featured from '../Featured/Featured';
+import ShoesGear from '../ShoesGear/ShoesGear';
+import PopularCategories from '../PopularCategories/PopularCategories';
+import Footer from '../BottomSection/Footer';
 
 const Homepage = () => {
 
@@ -78,7 +81,9 @@ const Homepage = () => {
 
 
      <Featured/>
-
+     <ShoesGear/>
+     <PopularCategories/>
+     <Footer/>
      
       
     </div>

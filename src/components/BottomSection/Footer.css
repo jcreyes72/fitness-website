@@ -1,0 +1,70 @@
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    margin-top: 50px;
+    height: 700px
+}
+
+.footer-content {
+    padding-left: 50px;
+    padding-right: 15%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: flex-start;
+}
+
+.column {
+    width: 200px;
+    font-size: large;
+}
+
+.site-links {
+    margin-top: 0.5em;
+}
+
+.column a {
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    cursor: pointer;
+    line-height: 3;
+}
+
+.category {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.bottom {
+    margin-top: 0.5em;
+}
+
+
+.fitness-hq {
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    cursor: pointer;
+    line-height: 0.5;
+    font-weight: bold;
+}
+
+
+
+.address {
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    cursor: pointer;
+    line-height: 0.5;
+}
+
+
+
+

@@ -1,0 +1,33 @@
+.shoes-and-gear {
+    padding-top: 3rem;
+  }
+  
+  .img-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .home-product {
+    flex-wrap: wrap;
+    width: 30%;
+    margin-right: 20px;
+  }
+  
+  .home-product img{
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 50px;
+  }
+  
+  .home-product h3 {
+    margin-left: 50px;
+    position: relative;
+    bottom: 10px;
+  }
+  
+  .home-product .shop-now-link {
+    color: black;
+    margin-left: 50px;
+    position: relative;
+    bottom: 25px;
+  }
